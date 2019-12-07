@@ -1,0 +1,25 @@
+*{
+  overflow: hidden;
+}
+body{
+  background: black;
+}
+.ball{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgb(0, 250, 17);
+  transition: .5s ease-out;
+  position: absolute;
+}
+
+.line{
+  position: relative;
+  background: red;
+  width: inherit;
+  height: inherit;
+  top: 30px;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+}
