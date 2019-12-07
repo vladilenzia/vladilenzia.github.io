@@ -1,0 +1,205 @@
+$red: #dd102e;
+$tr: transparent;
+
+input {
+    border: none !important;
+}
+
+textarea {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    width: 100%;
+    height: 124px;
+    resize: none;
+}
+
+input:focus,
+input:active {
+    outline: none !important;
+    box-shadow: none !important;
+    border: none;
+}
+
+header {
+    background: url(../img/bg.jpg) no-repeat center top / cover;
+    min-height: 100vh;
+    height: auto;    
+    .btn {
+        border-radius: 3em;
+        padding: 1em;
+        background: transparent;
+        border: $red solid 2px;
+        color: #fff;
+
+        &:focus {
+            box-shadow: none;
+            background: $red;
+        }
+    }
+}
+
+button {
+    outline: none;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    z-index: 9999;
+}
+
+.gradient {
+    z-index: -0;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    background: rgba(0, 0, 0, .9);    
+}
+
+#our{
+    padding: 2em 0;
+}
+
+.mt_1 {
+    margin-top: 80px;
+}
+
+.advantages {
+    font-size: 1.1em;
+}
+
+.request {
+    background: #ebebeb;
+    height: auto;
+    padding: 4em 0;
+
+    .input-group .btn::before {
+        content: '';
+        position: absolute;
+        top: 10px;
+        right: 32px;
+        bottom: 20px;
+        border-left: 2px solid #f3f3f3;
+        height: 20px;
+    }
+
+    .input-group .btn {
+        background: #fff !important;
+        border: none !important;
+        border-radius: 0 !important;
+
+        &:focus,
+        &:active {
+            outline: none !important;
+            box-shadow: none !important;
+        }
+    }
+
+    .dropdown {
+        position: absolute;
+        top: 5.9vh;
+        left: 10em;
+    }
+
+    .dropdown-item:active {
+        background: $red !important;
+    }
+
+    .dropdown-item {
+        cursor: pointer;
+    }
+
+    .button {
+        padding: 1.2em 3em;
+        border-radius: 3em;
+    }
+}
+
+.mark {    
+    background: #fff;
+    height: auto;
+
+    img {
+        margin: 1em;
+    }
+
+}
+
+.video {
+    height: auto;
+    padding: 3em 0;
+    background: #fff;
+}
+
+.clients {
+    background: #ebebeb;
+    height: auto;
+    padding: 3em 0;
+}
+
+.consultation {
+    background: #dbdbdb;
+    height: auto;
+    padding: 3em 0;
+
+    .btn {
+        border-radius: 3em;
+        padding: 1em 2em;
+    }
+
+    form{
+        border: 4px solid #fff;
+        width: 70%;
+        padding: 3em 0;
+
+        input{
+            height: 7vh;
+        }
+    }
+}
+
+.client{
+    margin-top: -1em;
+    position: relative;
+}
+
+
+#map{
+    background: url(../img/Слой-4.jpg) no-repeat center top / cover;
+    height:90vh;
+    .adress{
+        background: $red;
+        color: #fff;
+        text-align: center;
+        width: 55%;
+        height: 45vh;
+        font-size: 3.3vh;        
+    }
+}
+
+footer{
+    background: #fff;
+    height: 10vh;    
+}
+
+.phone-back_footer{
+    margin-top: -.8em;    
+    position: relative;
+}
+
+
+@media screen and (max-width: 587px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .review{
+        width: 700px;
+    }
+}
