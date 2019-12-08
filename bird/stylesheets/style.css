@@ -1,0 +1,85 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Games\/terminator\/sass\/style\.scss}line{font-family:\000031}}
+html {
+  overflow: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Games\/terminator\/sass\/style\.scss}line{font-family:\000035}}
+body {
+  background: url(https://i.pinimg.com/originals/22/00/ae/2200ae99e9d447f41bd1e2606f58e0e5.jpg) no-repeat right top/cover;
+  min-height: 96vh; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Games\/terminator\/sass\/style\.scss}line{font-family:\000038}}
+  body .ufo {
+    background: #000;
+    width: 20vh;
+    height: 15vh;
+    border-radius: 50%;
+    position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Games\/terminator\/sass\/style\.scss}line{font-family:\0000314}}
+    body .ufo img {
+      width: 10vh;
+      height: 10vh; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Games\/terminator\/sass\/style\.scss}line{font-family:\0000318}}
+    body .ufo .wing {
+      position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Games\/terminator\/sass\/style\.scss}line{font-family:\0000321}}
+    body .ufo .left {
+      position: relative;
+      top: -1vh;
+      left: 16vh;
+      animation-name: rotat2;
+      transition: .1s;
+      animation-iteration-count: infinite;
+      animation-duration: .1s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Games\/terminator\/sass\/style\.scss}line{font-family:\0000330}}
+    body .ufo .right {
+      position: relative;
+      top: -10vh;
+      left: -4.8vh;
+      animation-name: rotat;
+      transition: .1s;
+      animation-iteration-count: infinite;
+      animation-duration: .1s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Games\/terminator\/sass\/style\.scss}line{font-family:\0000339}}
+    body .ufo:after {
+      content: '';
+      display: block;
+      position: relative;
+      width: 3vh;
+      height: 2vh;
+      border-radius: 70%;
+      background: red;
+      top: -17.2vh;
+      left: 5vh;
+      animation-duration: 3s;
+      animation-name: eyes;
+      animation-iteration-count: infinite; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Games\/terminator\/sass\/style\.scss}line{font-family:\0000353}}
+    body .ufo:before {
+      content: '';
+      display: block;
+      position: relative;
+      width: 3vh;
+      height: 2vh;
+      border-radius: 70%;
+      background: red;
+      top: 6vh;
+      left: 10vh;
+      animation-duration: 3s;
+      animation-name: eyes;
+      animation-iteration-count: infinite; }
+
+@keyframes eyes {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
+@keyframes rotat {
+  0% {
+    transform: rotateZ(0deg); }
+  50% {
+    transform: rotateZ(50deg); } }
+@keyframes rotat2 {
+  0% {
+    transform: rotateZ(0deg); }
+  50% {
+    transform-origin: bottom left;
+    transform: rotateZ(-50deg); } }

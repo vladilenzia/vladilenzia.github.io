@@ -1,0 +1,109 @@
+                    html {
+                        overflow: hidden;
+                    }
+                    
+                    body {
+                        background: url(https://i.pinimg.com/originals/22/00/ae/2200ae99e9d447f41bd1e2606f58e0e5.jpg) no-repeat right top / cover;
+                        min-height: 96vh;
+                        .ufo {
+                            background: #000;
+                            width: 20vh;
+                            height: 15vh;
+                            border-radius: 50%;
+                            position: relative;
+                            img {
+                                width: 10vh;
+                                height: 10vh;
+                            }
+                            .wing {
+                                position: relative;
+                            }
+                            .left {
+                                position: relative;
+                                top: -1vh;
+                                left: 16vh;
+                                animation-name: rotat2;
+                                transition: .1s;
+                                animation-iteration-count: infinite;
+                                animation-duration: .1s;
+                            }
+                            .right {
+                                position: relative;
+                                top: -10vh;
+                                left: -4.8vh;
+                                animation-name: rotat;
+                                transition: .1s;
+                                animation-iteration-count: infinite;
+                                animation-duration: .1s;
+                            }
+                            &:after {
+                                content: '';
+                                display: block;
+                                position: relative;
+                                width: 3vh;
+                                height: 2vh;
+                                border-radius: 70%;
+                                background: red;
+                                top: -17.2vh;
+                                left: 5vh;
+                                animation-duration: 3s;
+                                animation-name: eyes;
+                                animation-iteration-count: infinite;
+                            }
+                            &:before {
+                                content: '';
+                                display: block;
+                                position: relative;
+                                width: 3vh;
+                                height: 2vh;
+                                border-radius: 70%;
+                                background: red;
+                                top: 6vh;
+                                left: 10vh;
+                                animation-duration: 3s;
+                                animation-name: eyes;
+                                animation-iteration-count: infinite;
+                            }
+                        }
+                    }
+                    
+                    @keyframes eyes {
+                        from {
+                            opacity: 1;
+                        }
+                        to {
+                            opacity: 0;
+                        }
+                    }
+                    
+                    @keyframes rotat {
+                        0% {
+                            transform: rotateZ(0deg);
+                        }
+                        // 25% {
+                        //     transform: rotateZ(-25deg);
+                        // }
+                        50% {
+                            transform: rotateZ(50deg);
+                            // }
+                            // 25% {
+                            //     transform: rotateZ(-25deg);
+                            // }
+                        }
+                    }
+                    
+                    @keyframes rotat2 {
+                        0% {
+                            transform: rotateZ(0deg);
+                        }
+                        // 25% {
+                        //     transform: rotateZ(-25deg);
+                        // }
+                        50% {
+                            transform-origin: bottom left;
+                            transform: rotateZ(-50deg);
+                        }
+                        // 25% {
+                        //     transform: rotateZ(-25deg);
+                        // }
+                    }
