@@ -1,0 +1,25 @@
+{
+    "Teen": [{
+            "name": "lol",
+            "photo": "../img/bg0.jpg",
+            "about": "Lorem insup dolor set emmet",
+            "video": "videos/Hacking in progress.mp4"
+        },
+        {
+            "name": "kek",
+            "photo": "../img/bg2.jpg",
+            "about": "Lorem insup dolor set emmet",
+            "video": "videos/Hacking in progress.mp4"
+        },
+        {
+            "name": "chebur",
+            "photo": "../img/bg3.jpg",
+            "about": "Lorem insup dolor set emmet"
+        },
+        {
+            "name": "ek",
+            "photo": "../img/ass.jpg",
+            "about": "Lorem insup dolor set emmet"
+        }
+    ],
+}
