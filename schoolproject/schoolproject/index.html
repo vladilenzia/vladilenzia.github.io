@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Farro|Lato:700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Hello, world!</title>
+</head>
+
+<body>
+
+    <header class="pt-1 pb-3">
+        <div class="container-fluid">
+            <div class="row header">
+                <div class="dropdown col-lg-1">
+                    <button class="btn btn-white dropdown-toggle text-white" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Русский
+            </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">German</a>
+                        <a class="dropdown-item" href="#">English</a>
+                        <a class="dropdown-item" href="#">Русский</a>
+                    </div>
+                </div>
+                <div class="col-lg-6"></div>
+                <nav class="col-lg-5">
+                    <ul class="nav justify-content-between">
+                        <li class="nav-item">
+                            <a class="nav-link text-white active" href="#">Доставки</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Поддержка</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Гарантия</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="row">
+                <div class="logo col-lg-2 text-white">
+                    Namana
+                </div>
+
+                <div class="search col-lg-5">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="search" aria-label="Recipient's username" aria-describedby="basic-addon2" style="height: 50px;">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-light nav_search-button" type="button">
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                width="30" height="20"
+                                viewBox="0 0 50 50"
+                                style=" fill:#ffffff;"><path d="M 21 3 C 11.601563 3 4 10.601563 4 20 C 4 29.398438 11.601563 37 21 37 C 24.355469 37 27.460938 36.015625 30.09375 34.34375 L 42.375 46.625 L 46.625 42.375 L 34.5 30.28125 C 36.679688 27.421875 38 23.878906 38 20 C 38 10.601563 30.398438 3 21 3 Z M 21 7 C 28.199219 7 34 12.800781 34 20 C 34 27.199219 28.199219 33 21 33 C 13.800781 33 8 27.199219 8 20 C 8 12.800781 13.800781 7 21 7 Z"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <ul class="nav col-lg-5 justify-content-between flex-nowrap">
+                    <li class="nav-item text-center">
+
+                        <a class="nav-link text-dark text-nowrap nav_link " href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35" height="35" viewBox="0 0 172 172" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#9d4ca7"><path d="M86,14.33333c-5.934,0 -10.75,4.816 -10.75,10.75v4.98307c-18.53885,4.77861 -32.25,21.56799 -32.25,41.60026v43l-14.33333,14.33333v7.16667h114.66667v-7.16667l-14.33333,-14.33333v-43c0,-20.03227 -13.71115,-36.82165 -32.25,-41.60026v-4.98307c0,-5.934 -4.816,-10.75 -10.75,-10.75zM42.34212,14.92122c-17.0065,13.10067 -28.00879,33.61144 -28.00879,56.74544h14.33333c0,-18.50433 8.8075,-34.91589 22.40983,-45.39355zM129.65788,14.92122l-8.73437,11.35189c13.60233,10.47767 22.40983,26.88922 22.40983,45.39355h14.33333c0,-23.134 -11.00229,-43.64478 -28.00879,-56.74544zM71.66667,143.33333c0,7.88333 6.45,14.33333 14.33333,14.33333c7.88333,0 14.33333,-6.45 14.33333,-14.33333z"></path></g></g></svg>
+                            <br>
+                            <span>Уведомления</span>
+                        </a>
+                    </li>
+                    <li class="nav-item text-center">
+
+                        <a class="nav-link text-dark text-nowrap nav_link" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35" height="35" viewBox="0 0 172 172" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#9d4ca7"><path d="M85.77156,0.00672c-0.2673,0.0186 -0.53809,0.07025 -0.79953,0.15453l-55.04,17.2c-1.43792,0.4472 -2.41203,1.77547 -2.41203,3.27875v134.16c0,1.57896 1.07607,2.95394 2.60687,3.33922l55.04,13.76c0.2752,0.0688 0.55449,0.10078 0.83313,0.10078c0.76024,0 1.50752,-0.25419 2.1164,-0.73235c0.83592,-0.65016 1.3236,-1.64813 1.3236,-2.70765v-165.12c0,-1.09392 -0.51686,-2.12468 -1.3975,-2.77484c-0.66306,-0.48504 -1.46904,-0.71423 -2.27094,-0.65844zM96.32,13.76v6.88h27.52v78.0786c2.21536,-0.78432 4.50984,-1.38143 6.88,-1.78047v-79.73813c0,-1.90232 -1.54112,-3.44 -3.44,-3.44zM75.68,79.12c1.89888,0 3.44,2.31168 3.44,5.16c0,2.84832 -1.54112,5.16 -3.44,5.16c-1.89888,0 -3.44,-2.31168 -3.44,-5.16c0,-2.84832 1.54112,-5.16 3.44,-5.16zM137.6,103.2c-18.92,0 -34.4,15.48 -34.4,34.4c0,18.92 15.48,34.4 34.4,34.4c18.92,0 34.4,-15.48 34.4,-34.4c0,-18.92 -15.48,-34.4 -34.4,-34.4zM152.39469,121.77735l5.16,4.46797l-23.05203,26.49203l-16.16531,-12.38266l4.12531,-5.50937l11.35469,8.6z"></path></g></g></svg>
+                            <br>
+                            <span>Войти</span>
+                        </a>
+                    </li>
+                    <li class="nav-item text-center">
+
+                        <a class="nav-link text-dark text-nowrap nav_link" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35" height="35" viewBox="0 0 172 172" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#9d4ca7"><path d="M82.27885,1.24038l-82.27885,32.45673v88.89423l99.23077,48.78846l72.76923,-48.78846v-88.89423zM82.48558,15.50481l74.21635,26.66827l-17.57212,9.30288l-74.62981,-28.94231zM46.51442,29.76923l77.11058,29.97596l-20.46635,10.75l-80.41827,-31.42308zM13.64423,42.58654l85.58654,33.49038v79.38462l-1.03365,0.62019l-84.96635,-41.75962v-71.52885zM43,70.49519l-9.71635,12.61058l6.40865,2.06731v18.19231l6.61538,2.48077v-18.39904l6.61538,2.06731zM69.46154,79.59135l-9.92308,12.81731l6.61538,2.27404v20.05288l6.61538,2.48077v-20.25962l6.40865,2.06731zM33.07692,106.05288v8.0625l46.30769,21.91346v-8.26923z"></path></g></g></svg>
+                            <br>
+                            <span>Мои заказы</span>
+                        </a>
+                    </li>
+                    <li class="nav-item text-center">
+
+                        <a class="nav-link text-dark text-nowrap nav_link" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35" height="35" viewBox="0 0 172 172" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#9d4ca7"><path d="M31.64811,14.30534l-24.45345,0.12598l0.06999,14.33333l14.83724,-0.06999l23.61361,56.64746l-8.5804,13.71745c-6.00821,9.59438 1.29744,22.77376 12.61165,22.77376h86.41992v-14.33333h-86.41992c-0.79745,0 -0.8894,-0.15716 -0.46191,-0.83985l8.42643,-13.49349h53.52604c5.203,0 10.005,-2.8258 12.52767,-7.37663l25.8112,-46.48535c2.65883,-4.773 -0.79584,-10.63802 -6.25684,-10.63802h-105.69434zM50.16667,129c-7.91608,0 -14.33333,6.41725 -14.33333,14.33333c0,7.91608 6.41725,14.33333 14.33333,14.33333c7.91608,0 14.33333,-6.41725 14.33333,-14.33333c0,-7.91608 -6.41725,-14.33333 -14.33333,-14.33333zM121.83333,129c-7.91608,0 -14.33333,6.41725 -14.33333,14.33333c0,7.91608 6.41725,14.33333 14.33333,14.33333c7.91608,0 14.33333,-6.41725 14.33333,-14.33333c0,-7.91608 -6.41725,-14.33333 -14.33333,-14.33333z"></path></g></g></svg><br>
+                            <span>Корзина</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+
+    <section>
+        <div class="container-fluid mt-4">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+                <div id="carouselExampleControls" class="carousel secondary slide  mt-4" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100 propSize" src="img/slider.jpg" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100 propSize" src="img/slider2.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100 propSize" src="img/slider3.jpg" alt="Third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div id="carouselExampleControlss" class="carousel secondary slide  mt-4" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="img/slider.jpg" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/slider2.jpg" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/slider3.jpg" alt="Third slide">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControlss" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControlss" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-7">
+                    <div id="carouselExampleControl" class="carousel secondary slide  mt-4" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="img/slider.jpg" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/slider2.jpg" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/slider3.jpg" alt="Third slide">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControl" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControl" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="slider">
+        <div class="container-fluid mt-4">
+            <div class="slider row flex-nowrap">
+                <a href="#" class="col-lg-2 col-md-3 col-sm-3 col-xs-4 col-4 slider_item">
+                    <img src="img/slider2.jpg" alt="">
+                </a>
+                <a href="#" class="col-lg-2 col-md-3 col-sm-3 col-xs-4 col-4 slider_item">
+                    <img src="img/slider3.jpg" alt="">
+                </a>
+                <a href="#" class="col-lg-2 col-md-3 col-sm-3 col-xs-4 col-4 slider_item">
+                    <img src="img/slider2.jpg" alt="">
+                </a>
+                <a href="#" class="col-lg-2 col-md-3 col-sm-3 col-xs-4 col-4 slider_item">
+                    <img src="img/slider3.jpg" alt="">
+                </a>
+                <a href="#" class="col-lg-2 col-md-3 col-sm-3 col-xs-4 col-4 slider_item">
+                    <img src="img/slider2.jpg" alt="">
+                </a>
+                <a href="#" class="col-lg-2 col-md-3 col-sm-3 col-xs-4 col-4 slider_item">
+                    <img src="img/slider3.jpg" alt="">
+                </a>
+                <a href="#" class="col-lg-2 col-md-3 col-sm-3 col-xs-4 col-4 slider_item">
+                    <img src="img/slider2.jpg" alt="">
+                </a>
+                <a href="#" class="col-lg-2 col-md-3 col-sm-3 col-xs-4 col-4 slider_item">
+                    <img src="img/slider3.jpg" alt="">
+                </a>
+            </div>
+
+            <svg class="arrow-right" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 172 172" style=" fill:#000000;"><g transform="translate(0.43,0.43) scale(0.995,0.995)"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="none" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g fill="#000000" stroke="#000000" stroke-linejoin="round"><path d="M120.04167,81.29688l4.25521,4.70313l-4.25521,4.70313l-64.5,71.66667l-10.75,-9.40625l60.24479,-66.96354l-60.24479,-66.96354l10.75,-9.40625z"></path></g><path d="M0,172v-172h172v172z" fill="none" stroke="none" stroke-linejoin="miter"></path><g fill="#ffffff" stroke="none" stroke-linejoin="miter"><path d="M55.54167,9.63021l-10.75,9.40625l60.24479,66.96354l-60.24479,66.96354l10.75,9.40625l64.5,-71.66667l4.25521,-4.70312l-4.25521,-4.70312z"></path></g><path d="" fill="none" stroke="none" stroke-linejoin="miter"></path></g></g></svg>
+            <svg class='arrow-left' xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 172 172" style=" fill:#000000;"><g transform="translate(0.516,0.516) scale(0.994,0.994)"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="none" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g fill="#ffffff" stroke="#000000" stroke-linejoin="round"><path d="M127.20833,19.03646l-60.24479,66.96354l60.24479,66.96354l-10.75,9.40625l-64.5,-71.66667l-4.25521,-4.70312l4.25521,-4.70312l64.5,-71.66667z"></path></g><path d="M0,172v-172h172v172z" fill="none" stroke="none" stroke-linejoin="miter"></path><g fill="#ffffff" stroke="none" stroke-linejoin="miter"><path d="M116.45833,9.63021l-64.5,71.66667l-4.25521,4.70313l4.25521,4.70313l64.5,71.66667l10.75,-9.40625l-60.24479,-66.96354l60.24479,-66.96354z"></path></g><path d="" fill="none" stroke="none" stroke-linejoin="miter"></path></g></g></svg>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluid">
+            <div class="row justify-content-between">
+                <div class="col-lg-10">
+                    <div id="carouselExample" class="carousel  mt-4 promo slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="img/slider.jpg" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/slider2.jpg" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/slider3.jpg" alt="Third slide">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div id="carouselExamplel" class="carousel mt-2 promo slide col-lg-6" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="img/slider.jpg" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="img/slider2.jpg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="img/slider3.jpg" alt="Third slide">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="carouselExampl" class="carousel promo  mt-3 slide col-lg-6" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="img/slider.jpg" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="img/slider2.jpg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="img/slider3.jpg" alt="Third slide">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sponsors mt-5">
+                            <div class="row justify-content-around col-lg-12 pt-4 col-md-12">
+                                <a href="#" class="col-lg-2 col-md-3 col-sm-3 col-3"><img src="img/sponsor.png" alt=""></a>
+                                <a href="#" class="col-lg-2 col-md-3 col-sm-3 col-3"><img src="img/sponsor.png" alt=""></a>
+                                <a href="#" class="col-lg-2 col-md-3 col-sm-3 col-3"><img src="img/sponsor.png" alt=""></a>
+                                <a href="#" class="col-lg-2 col-md-3 col-sm-3 col-3"><img src="img/sponsor.png" alt=""></a>
+                                <a href="#" class="col-lg-2 col-md-3 col-sm-3 col-3"><img src="img/sponsor.png" alt=""></a>
+                                <a href="#" class="col-lg-2 col-md-3 col-sm-3 col-3"><img src="img/sponsor.png" alt=""></a>
+                                <a href="#" class="col-lg-2 col-md-3 col-sm-3 col-3"><img src="img/sponsor.png" alt=""></a>
+                                <a href="#" class="col-lg-2 col-md-3 col-sm-3 col-3"><img src="img/sponsor.png" alt=""></a>
+                                <a href="#" class="col-lg-2 col-md-3 col-sm-3 col-3"><img src="img/sponsor.png" alt=""></a>
+                                <a href="#" class="col-lg-2 col-md-3 col-sm-3 col-3"><img src="img/sponsor.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-12 sidebar mt-4 justify-content-around">
+                    <a href="#" class="col-md-2 col-sm-2 col-2 col-lg-12 p-0 m-0">
+                        <img src="img/slider.jpg" alt="">
+                    </a>
+                    <a href="#" class="col-md-2 col-sm-2 col-2 col-lg-12 p-0 m-0">
+                        <img src="img/slider2.jpg" alt="">
+                    </a>
+                    <a href="#" class="col-md-2 col-sm-2 col-2 col-lg-12 p-0 m-0">
+                        <img src="img/slider3.jpg" alt="">
+                    </a>
+                    <a href="#" class="col-md-2 col-sm-2 col-2 col-lg-12 p-0 m-0">
+                        <img src="img/slider.jpg" alt="">
+                    </a>
+                    <a href="#" class="col-md-2 col-sm-2 col-2 col-lg-12 p-0 m-0">
+                        <img src="img/slider2.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="page-footer font-small unique-color-dark pt-4  mt-5">
+        <div class="container text-center text-md-left">
+            <div class="row mt-3">
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 text-light">
+                    <h6 class="text-uppercase font-weight-bold">Namana</h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>Мы предоставляем качественный товар нашип клиентам а дальше я не маркетолог чтобы что-то писать</p>
+                </div>
+                <div class="col-md-2 col-lg-4 col-xl-2 mx-auto mb-4 text-light  text-nowrap">
+                    <h6 class="text-uppercase font-weight-bold">Продукция</h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <a href="#!" class="text-light">Ваш аккаунт</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-light">Станьте филиалом</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-light">Рейтинги покупок</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-light">Помощь</a>
+                    </p>
+                </div>
+                <div class="col-md-3 col-lg-4 col-xl-2 mx-auto mb-4 text-light  text-nowrap">
+                    <h6 class="text-uppercase font-weight-bold">Полезные ссылки</h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <a href="#!" class="text-light">Реферальная программа</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-light">Заработать с Namana</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-light">Как сделать заказ</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-light">Конфиденциальность</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>
