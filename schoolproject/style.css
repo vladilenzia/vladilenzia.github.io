@@ -1,5 +1,22 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+
 html {
     overflow-x: hidden;
+}
+
+.carousel-item {
+    position: relative;
+    overflow: hidden;
+    padding: 0 0 30% 0;
+}
+
+.carousel-inner img {
+    height: 100% !important;
+    width: 100%;
+    position: absolute;
 }
 
 header {
@@ -12,7 +29,6 @@ header {
 .logo {
     font-size: 45px;
     font-family: 'Lato', sans-serif;
-    ;
 }
 
 .nav_link {
@@ -26,26 +42,12 @@ header {
 }
 
 .carousel-indicators li {
-    width: 20px;
-    height: 20px;
+    width: 2%;
+    height: 2%;
 }
 
 .carousel-item {
     transition: 1s;
-}
-
-#carouselExampleIndicators img {
-    height: 447px;
-}
-
-#carouselExample img {
-    height: 300px;
-}
-
-.carousel-inner {}
-
-.secondary img {
-    height: 300px;
 }
 
 .slider a {
@@ -72,35 +74,42 @@ header {
 .arrow-right {
     position: absolute;
     top: 0;
-    right: 10px;
+    right: -9%;
     cursor: pointer;
 }
 
 .arrow-left {
     position: absolute;
     top: 0;
-    left: 10px;
+    left: -9%;
     cursor: pointer;
 }
 
-.sidebar {
+.sidebar-item {
     display: flex;
     flex-wrap: wrap;
-    height: 1080px;
+    position: relative;
+    padding: 0 0 100% 0;
+    margin-top: 1%;
 }
 
-.sidebar img {
+.sidebar-item img {
+    height: 100% !important;
+    width: 100%;
+    position: absolute;
+}
+
+.sponsors-item {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding: 0 0 1% 0;
+}
+
+.sponsors-item img {
     width: 100%;
     height: 100%;
-}
-
-.promo img {
-    height: 273px;
-}
-
-.sponsors img {
-    width: 200px;
-    height: 200px;
+    padding: 10%;
 }
 
 footer {
